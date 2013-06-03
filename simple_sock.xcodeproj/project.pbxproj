@@ -6,10 +6,21 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		F20F118417596B87009064B4 /* server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = server.c; sourceTree = "<group>"; };
+		F283805F175C942E006088E4 /* makefile */ = {isa = PBXFileReference; explicitFileType = sourcecode.make; fileEncoding = 4; path = makefile; sourceTree = "<group>"; };
+		F2838060175C9830006088E4 /* client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client.c; sourceTree = "<group>"; };
+		F2838061175C98F8006088E4 /* utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utility.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		F20F117917596B50009064B4 = {
 			isa = PBXGroup;
 			children = (
+				F2838061175C98F8006088E4 /* utility.h */,
+				F2838060175C9830006088E4 /* client.c */,
+				F283805F175C942E006088E4 /* makefile */,
+				F20F118417596B87009064B4 /* server.c */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,6 +163,7 @@
 				F20F118317596B50009064B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
